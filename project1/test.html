@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/test.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>   
+    </div>
+
+    <form action="#">
+        <p>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="userName" placeholder="Enter your name." required>
+        </p>
+        <p>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="userEmail" placeholder="Enter your email">
+        </p>
+        <p>
+            <label for="age">Age: </label>
+            <input type="number" name="age" id="userAge" placeholder="Enter your age.">
+        </p>
+        <p>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="userPassword" placeholder="Enter your password"required>
+        </p>
+        <fieldset>
+            <legend>Extra Information</legend>
+            <p>
+                <label for="color">Color: </label>
+                <input type="color" name="color" id="userColor">
+            </p>
+            <p>
+                <label for="date">Date: </label>
+                <input type="date" name="date" id="userDate">
+            </p>
+        </fieldset>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
